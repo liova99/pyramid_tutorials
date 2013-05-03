@@ -29,8 +29,11 @@ Tutorials`_ コミュニティープロジェクトにあります。また、�
 されているものもあります。
 
 
-.. _Pyramid Documentation: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
-.. _Pyramid Tutorials: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/#tutorials
+.. .. _Pyramid Documentation: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
+.. .. _Pyramid Tutorials: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/#tutorials
+
+.. _Pyramid Documentation: http://docs.pylonsproject.jp/en/latest/docs/pyramid.html
+.. _Pyramid Tutorials: http://docs.pylonsproject.jp/projects/pyramid-doc-ja/en/1.4-branch-doc-ja/#id3
 
 
 .. These are the Pyramid tutorials we could locate during the PyCon USA sprints in March, 2013.
@@ -90,13 +93,13 @@ Tutorials`_ コミュニティープロジェクトにあります。また、�
      - リポジトリ
      - 機能
 
-   * - `firstapp`_
+   * - `firstapp`_ (英語)
      - 1h
      - 最初の Pyramid アプリケーションの作成
      - メイン Pyramid ドキュメントの第4章 `Narrative Documentation`_
      - `pyramid`_
      - * URL dispatch
-   * - `wiki`_
+   * - `wiki`_ (英語)
      - 4h
      - ZODB + Traversal Wiki チュートリアル
      - メイン Pyramid ドキュメントの第37章 `Tutorials`_
@@ -110,19 +113,19 @@ Tutorials`_ コミュニティープロジェクトにあります。また、�
      - `pyramid`_
      - * URL dispatch
        * SQLAlchemy
-   * - `single_file`_
+   * - `single_file`_ (英語)
      - ?
      - 単一ファイルの Todo List アプリケーション
      - 非常に短い; 別名 Single ``tasks`` チュートリアル
      - `pyramid_tutorials`_ (このサイト)
      -
-   * - `humans`_
+   * - `humans`_ (英語)
      - 12h
      - Plone 開発者のための Pyramid
      - Plone 開発者のための Pyramid
      - `pyramid_tutorials`_ (このサイト)
      -
-   * - `getting_started`_
+   * - `getting_started`_ (英語)
      - 5h
      - Pyramid を始める
      - PyCon USA 2013 で Paul Everitt によって発表された
@@ -131,7 +134,7 @@ Tutorials`_ コミュニティープロジェクトにあります。また、�
        * SQLAlchemy
        * Chameleon
        * security
-   * - `blogr`_
+   * - `blogr`_ (英語)
      - 4h
      - ``pyramid_blogr`` チュートリアル
      - Flask ウェブフレームワークチュートリアルの Flaskr アプリにヒントを得た
@@ -142,7 +145,7 @@ Tutorials`_ コミュニティープロジェクトにあります。また、�
        * security
        * WTForms
        * pagination
-   * - `birdie`_
+   * - `birdie`_ (英語)
      - 4h
      - Birdie チュートリアル: シンプルな Twitter クローン
      - OSCON 2011 と PyCon USA 2012 で Carlos de la Guardia によって発表された
@@ -150,17 +153,35 @@ Tutorials`_ コミュニティープロジェクトにあります。また、�
      -
 
 
-.. _firstapp: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/narr/firstapp.html
-.. _wiki: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/tutorials/wiki/index.html
-.. _wiki2: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/tutorials/wiki2/index.html
-.. _single_file: http://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html
-.. _humans: http://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/humans/index.html
-.. _getting_started: http://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/getting_started/index.html
+.. .. _firstapp: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/narr/firstapp.html
+.. .. _wiki: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/tutorials/wiki/index.html
+.. .. _wiki2: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/tutorials/wiki2/index.html
+.. .. _single_file: http://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html
+.. .. _humans: http://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/humans/index.html
+.. .. _getting_started: http://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/getting_started/index.html
+.. .. _blogr: http://pyramid-blogr.readthedocs.org/en/latest/
+.. .. _birdie: https://github.com/cguardia/Pyramid-Tutorial/blob/master/presentation/pyramid_tutorial.pdf
+
+.. .. _Narrative Documentation: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/#narrative-documentation
+.. .. _Tutorials: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/#tutorials
+
+.. .. _pyramid: https://github.com/Pylons/pyramid
+.. .. _pyramid_tutorials: https://github.com/Pylons/pyramid_tutorials
+.. .. _pyramid_blogr: https://github.com/Pylons/pyramid_blogr
+.. .. _cguardia_tut: https://github.com/cguardia/Pyramid-Tutorial
+
+
+.. _firstapp: http://docs.pylonsproject.jp/projects/pyramid-doc-ja/en/1.4-branch-doc-ja/narr/firstapp.html
+.. _wiki: http://docs.pylonsproject.jp/projects/pyramid-doc-ja/en/1.4-branch-doc-ja/tutorials/wiki/index.html
+.. _wiki2: http://docs.pylonsproject.jp/projects/pyramid-doc-ja/en/1.4-branch-doc-ja/tutorials/wiki2/index.html
+.. _single_file: http://docs.pylonsproject.jp/projects/pyramid_tutorials-doc-ja/en/latest/single_file_tasks/single_file_tasks.html
+.. _humans: http://docs.pylonsproject.jp/projects/pyramid_tutorials-doc-ja/en/latest/humans/index.html
+.. _getting_started: http://docs.pylonsproject.jp/projects/pyramid_tutorials-doc-ja/en/latest/getting_started/index.html
 .. _blogr: http://pyramid-blogr.readthedocs.org/en/latest/
 .. _birdie: https://github.com/cguardia/Pyramid-Tutorial/blob/master/presentation/pyramid_tutorial.pdf
 
-.. _Narrative Documentation: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/#narrative-documentation
-.. _Tutorials: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/#tutorials
+.. _Narrative Documentation: http://docs.pylonsproject.jp/projects/pyramid-doc-ja/en/1.4-branch-doc-ja/#id2
+.. _Tutorials: http://docs.pylonsproject.jp/projects/pyramid-doc-ja/en/1.4-branch-doc-ja/#id3
 
 .. _pyramid: https://github.com/Pylons/pyramid
 .. _pyramid_tutorials: https://github.com/Pylons/pyramid_tutorials
