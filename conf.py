@@ -142,7 +142,7 @@ html_theme = 'pyramid-ja'
 #     github_url='https://github.com/Pylons/pyramid_tutorials'
 # )
 html_theme_options = dict(
-    original_url='https://github.com/Pylons/pyramid_tutorials',
+    original_url='http://docs.pylonsproject.org/projects/pyramid_tutorials/en/latest/',
     our_github_url='https://github.com/pylonsproject-jp/pyramid_tutorials',
     in_progress=False,
 )
