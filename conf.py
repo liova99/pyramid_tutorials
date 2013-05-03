@@ -114,20 +114,37 @@ git = p.stdout.read().strip()
 cwd = os.getcwd()
 _themes = os.path.join(cwd, '_themes')
 
+# if not os.path.isdir(_themes):
+#     call([git, 'clone', 'git://github.com/Pylons/pylons_sphinx_theme.git',
+#           '_themes'])
+# else:
+#     os.chdir(_themes)
+#     call([git, 'checkout', 'master'])
+#     call([git, 'pull'])
+#     os.chdir(cwd)
+
 if not os.path.isdir(_themes):
-    call([git, 'clone', 'git://github.com/Pylons/pylons_sphinx_theme.git',
+    call([git, 'clone', 'git@github.com:pylonsproject-jp/pylons_sphinx_theme.git',
           '_themes'])
+    os.chdir(_themes)
+    call([git, 'checkout', 'doc-ja'])
+    os.chdir(cwd)
 else:
     os.chdir(_themes)
-    call([git, 'checkout', 'master'])
+    call([git, 'checkout', 'doc-ja'])
     call([git, 'pull'])
     os.chdir(cwd)
 
 sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes']
-html_theme = 'pyramid'
+html_theme = 'pyramid-ja'
+# html_theme_options = dict(
+#     github_url='https://github.com/Pylons/pyramid_tutorials'
+# )
 html_theme_options = dict(
-    github_url='https://github.com/Pylons/pyramid_tutorials'
+    original_url='https://github.com/Pylons/pyramid_tutorials',
+    our_github_url='https://github.com/pylonsproject-jp/pyramid_tutorials',
+    in_progress=False,
 )
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -144,7 +161,7 @@ html_theme_options = dict(
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'The Pyramid Tutorials v%s' % release
+html_title = u'The Pyramid Tutorials v%s (翻訳)' % release
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
