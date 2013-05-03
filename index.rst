@@ -1,62 +1,154 @@
+.. Pyramid Tutorials
+
 .. _pyramid-tutorials:
 
-=================
-Pyramid Tutorials
-=================
+======================
+Pyramid チュートリアル
+======================
 
-This is the home of tutorial and patterns content for the Pyramid web
-framework.
+.. This is the home of tutorial and patterns content for the Pyramid web
+.. framework.
 
----------------------------
-Available Pyramid tutorials
----------------------------
+これは、 Pyramid ウェブフレームワークのチュートリアルとパターンコンテンツ
+のホームです。
 
-Several Pyramid tutorials exist. Some are part of the main
-`Pyramid Documentation`_, some are in this `Pyramid Tutorials`_
-community project, and others are published elsewhere.
+
+.. Available Pyramid tutorials
+
+---------------------------------
+利用可能な Pyramid チュートリアル
+---------------------------------
+
+.. Several Pyramid tutorials exist. Some are part of the main
+.. `Pyramid Documentation`_, some are in this `Pyramid Tutorials`_
+.. community project, and others are published elsewhere.
+
+Pyramid のチュートリアルはいくつか存在します。あるものはメインの
+`Pyramid Documentation`_ の一部です。あるものはこの `Pyramid
+Tutorials`_ コミュニティープロジェクトにあります。また、別の場所で公開
+されているものもあります。
+
 
 .. _Pyramid Documentation: http://docs.pylonsproject.org/en/latest/docs/pyramid.html
 .. _Pyramid Tutorials: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/#tutorials
 
 
-These are the Pyramid tutorials we could locate during the PyCon USA sprints in March, 2013.
+.. These are the Pyramid tutorials we could locate during the PyCon USA sprints in March, 2013.
 
-**ET** is the estimated time to complete each tutorial.
+これらは 2013年3月に PyCon USA スプリントの間に確認できた Pyramid
+チュートリアルです。
 
-================== === ======================= =============================== ==================== ===============
-name/link          ET* title                   description                     code repo            features
-================== === ======================= =============================== ==================== ===============
-`firstapp`_        1h  Creating Your First     chapter 4 in the
-                       Pyramid Application     `Narrative Documentation`_ part `pyramid`_           * URL dispatch
-                                               of the main Pyramid docs
 
-`wiki`_            4h  ZODB + Traversal Wiki   chapter 37 in the `Tutorials`_  `pyramid`_           * traversal
-                       Tutorial                part of the main Pyramid docs                        * ZODB
+.. **ET** is the estimated time to complete each tutorial.
 
-`wiki2`_           4h  SQLAlchemy + URL        chapter 38 in the `Tutorials`_  `pyramid`_           * URL dispatch
-                       Dispatch Wiki Tutorial  part of the main Pyramid docs                        * SQLAlchemy
+**ET** はそれぞれのチュートリアルを完成するまでの予想時間です。
 
-`single_file`_     ?   Todo List Application   very short; a.k.a. The Single   `pyramid_tutorials`_
-                       in One File             ``tasks`` Tutorial              (this site)
 
-`humans`_          12h Pyramid for Plone       Pyramid for Plone Developers    `pyramid_tutorials`_
-                       Developers                                              (this site)
+.. ================== === ======================= =============================== ==================== ===============
+.. name/link          ET* title                   description                     code repo            features
+.. ================== === ======================= =============================== ==================== ===============
+.. `firstapp`_        1h  Creating Your First     chapter 4 in the
+..                        Pyramid Application     `Narrative Documentation`_ part `pyramid`_           * URL dispatch
+..                                                of the main Pyramid docs
 
-`getting_started`_ 5h  Getting Started with    Presented by Paul Everitt at    `pyramid_tutorials`_ * URL dispatch
-                       Pyramid                 PyCon USA 2013                  (this site)          * SQLAlchemy
-                                                                                                    * Chameleon
-                                                                                                    * security
+.. `wiki`_            4h  ZODB + Traversal Wiki   chapter 37 in the `Tutorials`_  `pyramid`_           * traversal
+..                        Tutorial                part of the main Pyramid docs                        * ZODB
 
-`blogr`_           4h  ``pyramid_blogr``       inspired by Flaskr app from the `pyramid_blogr`_     * URL dispatch
-                       Tutorial                Flask Web Framework Tutorial                         * SQLAlchemy
-                                                                                                    * Mako
-                                                                                                    * security
-                                                                                                    * WTForms
-                                                                                                    * pagination
-`birdie`_          4h  Birdie Tutorial: a      presented by Carlos de la
-                       simple Twitter clone    Guardia at OSCON 2011 and PyCon `cguardia_tut`_
-                                               USA 2012
-================== === ======================= =============================== ==================== ===============
+.. `wiki2`_           4h  SQLAlchemy + URL        chapter 38 in the `Tutorials`_  `pyramid`_           * URL dispatch
+..                        Dispatch Wiki Tutorial  part of the main Pyramid docs                        * SQLAlchemy
+
+.. `single_file`_     ?   Todo List Application   very short; a.k.a. The Single   `pyramid_tutorials`_
+..                        in One File             ``tasks`` Tutorial              (this site)
+
+.. `humans`_          12h Pyramid for Plone       Pyramid for Plone Developers    `pyramid_tutorials`_
+..                        Developers                                              (this site)
+
+.. `getting_started`_ 5h  Getting Started with    Presented by Paul Everitt at    `pyramid_tutorials`_ * URL dispatch
+..                        Pyramid                 PyCon USA 2013                  (this site)          * SQLAlchemy
+..                                                                                                     * Chameleon
+..                                                                                                     * security
+
+.. `blogr`_           4h  ``pyramid_blogr``       inspired by Flaskr app from the `pyramid_blogr`_     * URL dispatch
+..                        Tutorial                Flask Web Framework Tutorial                         * SQLAlchemy
+..                                                                                                     * Mako
+..                                                                                                     * security
+..                                                                                                     * WTForms
+..                                                                                                     * pagination
+.. `birdie`_          4h  Birdie Tutorial: a      presented by Carlos de la
+..                        simple Twitter clone    Guardia at OSCON 2011 and PyCon `cguardia_tut`_
+..                                                USA 2012
+.. ================== === ======================= =============================== ==================== ===============
+
+
+.. list-table::
+   :header-rows: 1
+
+   * - 名称/リンク
+     - ET*
+     - タイトル
+     - 説明
+     - リポジトリ
+     - 機能
+
+   * - `firstapp`_
+     - 1h
+     - 最初の Pyramid アプリケーションの作成
+     - メイン Pyramid ドキュメントの第4章 `Narrative Documentation`_
+     - `pyramid`_
+     - * URL dispatch
+   * - `wiki`_
+     - 4h
+     - ZODB + Traversal Wiki チュートリアル
+     - メイン Pyramid ドキュメントの第37章 `Tutorials`_
+     - `pyramid`_
+     - * traversal
+       * ZODB
+   * - `wiki2`_
+     - 4h
+     - SQLAlchemy + URL ディスパッチ Wiki チュートリアル
+     - メイン Pyramid ドキュメントの第38章 `Tutorials`_
+     - `pyramid`_
+     - * URL dispatch
+       * SQLAlchemy
+   * - `single_file`_
+     - ?
+     - 単一ファイルの Todo List アプリケーション
+     - 非常に短い; 別名 Single ``tasks`` チュートリアル
+     - `pyramid_tutorials`_ (このサイト)
+     -
+   * - `humans`_
+     - 12h
+     - Plone 開発者のための Pyramid
+     - Plone 開発者のための Pyramid
+     - `pyramid_tutorials`_ (このサイト)
+     -
+   * - `getting_started`_
+     - 5h
+     - Pyramid を始める
+     - PyCon USA 2013 で Paul Everitt によって発表された
+     - `pyramid_tutorials`_ (このサイト)
+     - * URL dispatch
+       * SQLAlchemy
+       * Chameleon
+       * security
+   * - `blogr`_
+     - 4h
+     - ``pyramid_blogr`` チュートリアル
+     - Flask ウェブフレームワークチュートリアルの Flaskr アプリにヒントを得た
+     - `pyramid_blogr`_
+     - * URL dispatch
+       * SQLAlchemy
+       * Mako
+       * security
+       * WTForms
+       * pagination
+   * - `birdie`_
+     - 4h
+     - Birdie チュートリアル: シンプルな Twitter クローン
+     - OSCON 2011 と PyCon USA 2012 で Carlos de la Guardia によって発表された
+     - `cguardia_tut`_
+     -
+
 
 .. _firstapp: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/narr/firstapp.html
 .. _wiki: http://docs.pylonsproject.org/projects/pyramid/en/1.4-branch/tutorials/wiki/index.html
