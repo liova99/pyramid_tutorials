@@ -124,7 +124,7 @@ _themes = os.path.join(cwd, '_themes')
 #     os.chdir(cwd)
 
 if not os.path.isdir(_themes):
-    call([git, 'clone', 'git@github.com:pylonsproject-jp/pylons_sphinx_theme.git',
+    call([git, 'clone', 'git://github.com/pylonsproject-jp/pylons_sphinx_theme.git',
           '_themes'])
     os.chdir(_themes)
     call([git, 'checkout', 'doc-ja'])
