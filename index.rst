@@ -93,7 +93,7 @@ Tutorials`_ コミュニティープロジェクトにあります。また、�
      - リポジトリ
      - 機能
 
-   * - `firstapp`_ (英語)
+   * - `firstapp`_
      - 1h
      - 最初の Pyramid アプリケーションの作成
      - メイン Pyramid ドキュメントの第4章 `Narrative Documentation`_
